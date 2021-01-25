@@ -1,12 +1,13 @@
-﻿using System;
-
+﻿
 namespace NetCorePatterns.Creational.AbstractMethod
 {
+  using NetCorePatterns.Creational.AbstractMethod.Conceptual;
+
   class Program
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      new Client().Main();
     }
   }
 }
